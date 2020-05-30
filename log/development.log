@@ -453,3 +453,115 @@ Processing by ArticlesController#new as HTML
 Completed 200 OK in 34ms (Views: 32.4ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/articles/new" for ::1 at 2020-05-30 11:23:31 +0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 40ms (Views: 38.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for ::1 at 2020-05-30 11:24:39 +0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 36ms (Views: 33.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for ::1 at 2020-05-30 11:24:41 +0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 39ms (Views: 37.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for ::1 at 2020-05-30 11:26:12 +0500
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xjd9xgCJEY3Erwsea7jeE012a6spcPJ+6qESHeW5X8RvU4ah/H45V5ibtL/9D09enL0g24028dD5NR42Sn+y2A==", "article"=>{"title"=>"gogo", "text"=>"dggrtr"}, "commit"=>"Save Article"}
+No template found for ArticlesController#create, rendering head :no_content
+Completed 204 No Content in 115ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for ::1 at 2020-05-30 11:27:22 +0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 36ms (Views: 33.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for ::1 at 2020-05-30 11:28:44 +0500
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UgZGvjAZ/w+xp++JApbHM0KirtXmmuyeYFF9NkOrN/77Yr3ZzO7X1e2TUCiUIVZ+k2nlpULc7zBzxXEd7G3a4g==", "article"=>{"title"=>"gogo", "text"=>"12454"}, "commit"=>"Save Article"}
+No template found for ArticlesController#create, rendering head :no_content
+Completed 204 No Content in 106ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for ::1 at 2020-05-30 11:29:02 +0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 34ms (Views: 32.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for ::1 at 2020-05-30 11:29:06 +0500
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YECJJBpmud3qjObIaWRC+orbKdq6mWtKPkQ8Z2oA+aDJJHJD5pGRB7a4WWn/09O3WxBiqh7faOQt0DBMxcYUvA==", "article"=>{"title"=>"gogo", "text"=>"1244\r\n"}, "commit"=>"Save Article"}
+No template found for ArticlesController#create, rendering head :no_content
+Completed 204 No Content in 108ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for ::1 at 2020-05-30 11:34:25 +0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 38ms (Views: 36.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for ::1 at 2020-05-30 11:36:47 +0500
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PERg0lvsOrKxr1Y0SsGpdzNCgmmzGyIqNGjoj+bliWeVIJu1pxsSaO2b6ZXcdjg64onJGRddIYQn/OSkSSNkew==", "article"=>{"title"=>"", "text"=>""}, "commit"=>"Save Article"}
+No template found for ArticlesController#create, rendering head :no_content
+Completed 204 No Content in 104ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for ::1 at 2020-05-30 11:39:01 +0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 45ms (Views: 40.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for ::1 at 2020-05-30 11:39:02 +0500
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 47ms (Views: 43.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for ::1 at 2020-05-30 11:39:06 +0500
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"anID8QONOpMTWpJxVhtUFXXHtX+zqf9QkNBaZhzXAfjDFviW/3oSSU9uLdDArMVYpAz+Dxfv/P6DRFZNsxHs5A==", "article"=>{"title"=>"gogo", "text"=>"34525"}, "commit"=>"Save Article"}
+Completed 500 Internal Server Error in 55ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `rander' for #<ArticlesController:0x000000000cb1b140>
+Did you mean?  rand
+               render):
+  
+app/controllers/articles_controller.rb:6:in `create'
+Started POST "/articles" for ::1 at 2020-05-30 11:39:21 +0500
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"anID8QONOpMTWpJxVhtUFXXHtX+zqf9QkNBaZhzXAfjDFviW/3oSSU9uLdDArMVYpAz+Dxfv/P6DRFZNsxHs5A==", "article"=>{"title"=>"gogo", "text"=>"34525"}, "commit"=>"Save Article"}
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for ::1 at 2020-05-30 11:40:46 +0500
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"anID8QONOpMTWpJxVhtUFXXHtX+zqf9QkNBaZhzXAfjDFviW/3oSSU9uLdDArMVYpAz+Dxfv/P6DRFZNsxHs5A==", "article"=>{"title"=>"qejfkwrjvkls", "text"=>"s;iogjsl;jbvg;sl"}, "commit"=>"Save Article"}
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
